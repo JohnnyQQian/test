@@ -4,3 +4,11 @@ complex model
 2. due to variance - precision and overfitting (too complex model) - training
 more data or limit the complexity of model
 
+** bias-variance dilemma & number of features -- there is a trade-off, needs
+to find a sweet spot. ** 
+
+** the curse of dimensionality -- as the number of features grows, the amount
+of data we need to generalize accurately grows exponentially ** think of 10
+sample points in each dimension, we need 10^d data points. 
+
+
