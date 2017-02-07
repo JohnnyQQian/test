@@ -1,4 +1,4 @@
-cause of errors
+** cause of errors
 1. due to bias - accuracy and underfitting (inadequate model) - need a more
 complex model
 2. due to variance - precision and overfitting (too complex model) - training
