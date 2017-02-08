@@ -11,4 +11,30 @@ to find a sweet spot. **
 of data we need to generalize accurately grows exponentially ** think of 10
 sample points in each dimension, we need 10^d data points. 
 
+** classification metrics
+	accuracy_score (not ideal for skewed data, not ideal for false negative, false positive)
 
+	confusion_matrix in sklearn
+
+				predict class
+
+			negative   | 	positive
+                   --------------------------------
+actual  | negative	TN	   |	FP	   |
+        |------------------------------------------
+class	| positive	FN	   |	TP	   |	
+        -------------------------------------------
+
+	recall rate: TP / TP + FN (accurate pred / all actual)
+	precision rate: TP / TP + FP (accurate pred / all prediction)
+
+	f1_score: 2 * (precision * recall) / (precision + recall)
+
+** regression metrics
+	mean absolute error (mae)
+	mean squared error (mse)
+	r2_score
+	explained_variance_score
+
+** learning curve
+	
