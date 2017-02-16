@@ -37,4 +37,20 @@ class	| positive	FN	   |	TP	   |
 	explained_variance_score
 
 ** learning curve
+
+
+** Regression -- fun fact: regression is a mis-used word. Its original meaning
+comes from the study showing that child height tends to regress to the mean of
+population of their parents: tall parents tends to have children that are
+shorter than themselves, and shorter parents tends to have children that are
+taller than themselves.The coefficient of children's height vs. parent's
+height is less than 1. However, later on the fitting of this linear
+relationship took the word regression.
+
+** feature selection
+	filtering: one way is to use a DT to select features and feed into
+learner. DT - information gain based on labels. other ways: entropy,
+relevance, independency.
+	wrapping: hill climing, randomized opt, forward search, backward
+search,
 	
